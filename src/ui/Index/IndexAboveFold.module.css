@@ -1,0 +1,21 @@
+.aboveFoldWrapper {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.imageIndex {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
+
+@media (orientation: portrait) {
+  .aboveFoldWrapper {
+    height: 25vh;
+  }
+  .imageIndex {
+    height: 25vh;
+  }
+}

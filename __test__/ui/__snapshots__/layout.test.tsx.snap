@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`>>>Testing layout +++ Snapshot of Layout 1`] = `
+[
+  <header
+    className="relative bg-gray-100"
+  >
+    <div
+      className="mx-auto max-w-7xl px-4 sm:px-6"
+    >
+      <div
+        className="flex items-center justify-between border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10"
+      >
+        <div
+          className="flex justify-start lg:w-0 lg:flex-1"
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onTouchStart={[Function]}
+          >
+            <span
+              className="text-gray-900 font-bold"
+            >
+              Codechallenge with Rick and Morty
+            </span>
+          </a>
+        </div>
+        <nav
+          className="hidden space-x-10 md:flex"
+        >
+          <a
+            className="text-base font-medium text-gray-700 hover:text-gray-900"
+            href="/characters"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onTouchStart={[Function]}
+          >
+            Charakters
+          </a>
+          <a
+            className="text-base font-medium text-gray-700 hover:text-gray-900"
+            href="/episodes"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onTouchStart={[Function]}
+          >
+            Episodes
+          </a>
+        </nav>
+        <div
+          className="hidden items-center justify-end md:flex md:flex-1 lg:w-0"
+        >
+          <a
+            className="whitespace-nowrap text-base font-medium text-gray-700 hover:text-gray-900"
+            href="#"
+            onClick={[Function]}
+          >
+            Sign in
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>,
+  <main
+    className="main"
+  >
+    <div>
+      Test
+    </div>
+  </main>,
+]
+`;

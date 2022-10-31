@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.description {
+  float: right;
+  width: calc(100% - 300px);
+}
+
+.floatRight {
+  float: right;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+} 
+
+.clearfix::after {
+  clear: both;
+}
